@@ -11,4 +11,14 @@ public class TacticalDirector {
                 .setLibero(true)
                 .setTacticalNotes("Aggressive offensive setup. Setter runs the offense from all rotations.");
     }
+
+    public void constructAmateurFourTwo(LineupBuilder builder) {
+        builder.setFormationType("Amateur 4-2")
+                .setSetters(2)
+                .setOpposites(0)
+                .setOutsideHitters(2)
+                .setMiddleBlockers(2)
+                .setLibero(false)
+                .setTacticalNotes("Classic 4-2 scheme without designated libero; optimized for basic rotational play.");
+    }
 }
